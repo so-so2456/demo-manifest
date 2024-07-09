@@ -1,0 +1,7 @@
+helmCharts:
+- name: demo
+  repo: https://so-so2456.github.io/demo-helm-chart/
+  version: 0.1.0
+  releaseName: demo
+  namespace: default
+  valuesFile: values.yaml
